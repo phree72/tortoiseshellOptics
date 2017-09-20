@@ -5,11 +5,6 @@ html{
 .header{
   display: flex;
   justify-content: center;
-  border: 1px solid black;
-
-
-
-
 }
 .header background-image{
   background-image: url("/Users/geoffreyawinyo/tortoiseshellOptics/resources/images/glasses-bg.png");
@@ -18,13 +13,11 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 35% 0%;
-
 }
 .logo{
   display: flex;
   flex-flow: row nowrap;
   margin-right: auto;
-
 }
 .logo img{
   height: 1.5rem;
@@ -49,9 +42,7 @@ html{
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
-
   background-color: cadetblue;
-
 }
 .dropdown span{
   display: none;
@@ -59,13 +50,7 @@ html{
 .dropdown-content ul{
   list-style: none;
   display: flex;
-
-
-
   padding-right: 1rem;
-
-
-
 }
 .dropdown-content li a{
   text-decoration: none;
@@ -74,8 +59,6 @@ html{
   font-family: Helvetica;
   font-size: 1rem;
   color: white;
-
-
 }
 .banner{
   margin-top: 10rem;
@@ -87,10 +70,8 @@ html{
   height: 5rem;
   width: 609px;
   background-color: white;
-
   margin-right: 109px;
   margin-left: auto;
-
 }
 
 .banner h3{
@@ -102,16 +83,13 @@ html{
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
-
 }
 .icons{
-  border: 1px solid black;
   display: flex;
   flex-flow: row;
   justify-content: center;
   height: 8rem;
   margin-top: 3rem;
-
 }
 .paper img{
   width: 3.5rem;
@@ -122,7 +100,6 @@ html{
   }
 .ruler img, .truck img{
   width: 5rem;
-
 }
 .ruler, .truck{
   display: inline-block;
@@ -131,26 +108,17 @@ html{
 }
 .exams{
   display: flex;
-
   flex-flow: column;
-
   justify-content: space-between;
-
   height: 8rem;
   width: 6.75rem;
-  border: 1px solid black;
 }
 .fittings, .delivery {
   display: flex;
-
   flex-flow: column;
-
   justify-content: space-between;
-
   height: 8rem;
   width: 5rem;
-  border: 1px solid black;
-
 }
 .fittings{
   margin-left: 6rem;
@@ -166,14 +134,11 @@ html{
   max-width: 960px;
   display: flex;
   flex-flow: row;
-  border: 1px solid black;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
-
 }
 .philosophy, .appointments{
-  border: 1px solid black;
   width: 35%;
   display: flex;
   flex-flow: column;
@@ -181,7 +146,6 @@ html{
 .philosophy{
   margin-left: 12.5%;
   margin-right: 5%;
-
 }
 
 .tab {
@@ -190,7 +154,6 @@ html{
   width: 10rem;
   height: 2rem;
   background-color: cadetblue;
-
 }
 .tab h4{
   padding-left: 1.25rem;
@@ -198,7 +161,6 @@ html{
   font-size: 1rem;
   color: white;
   font-weight: bold;
-
 }
 .tab-content p{
   font-family: Helvetica;
@@ -217,21 +179,13 @@ html{
 }
 .footer img{
   height: 1.5rem;
-
-
-  border: 1px solid black;
-
-
   margin-left: 4rem;
-
   margin-right: 1rem;
-
 }
 .copyright p{
   font-family: Helvetica;
   font-size: 1rem;
   color: black;
-  border: 1px solid black;
 }
 @media only screen and (max-width: 1024px){
   .navigation-bar{
